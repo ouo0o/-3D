@@ -311,12 +311,12 @@ GameObject:
   - component: {fileID: 56437188}
   - component: {fileID: 56437187}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &56437186
 Transform:
   m_ObjectHideFlags: 0
@@ -548,7 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87462777}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B83"
+  m_Name: "\uC2DC\uD2B81 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,7 +1058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136022832}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B86"
+  m_Name: "\uC2DC\uD2B85 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2353,6 +2353,7 @@ GameObject:
   - component: {fileID: 286601930}
   - component: {fileID: 286601929}
   - component: {fileID: 286601933}
+  - component: {fileID: 286601934}
   m_Layer: 0
   m_Name: zone_01
   m_TagString: Untagged
@@ -2468,6 +2469,21 @@ MonoBehaviour:
   prompt: {fileID: 1751726781}
   panel: {fileID: 361992211}
   lockMove: 1
+--- !u!114 &286601934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286601928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 1874987757}
+  lockMove: 0
 --- !u!1 &318825042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 449373670}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B86"
+  m_Name: "\uC2DC\uD2B8 5 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4115,12 +4131,12 @@ GameObject:
   - component: {fileID: 505016026}
   - component: {fileID: 505016025}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &505016024
 Transform:
   m_ObjectHideFlags: 0
@@ -4355,6 +4371,7 @@ GameObject:
   - component: {fileID: 532968327}
   - component: {fileID: 532968326}
   - component: {fileID: 532968325}
+  - component: {fileID: 532968330}
   m_Layer: 0
   m_Name: zone_02
   m_TagString: Untagged
@@ -4470,6 +4487,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532968330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532968324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 1543619115}
+  lockMove: 0
 --- !u!1 &540237634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,7 +4861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587305733}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B81"
+  m_Name: "\uC2DC\uD2B83 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5198,7 +5230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 700055006}
   m_Layer: 0
-  m_Name: vmfpdla
+  m_Name: "\uC2DC\uD2B81 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5234,7 +5266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719787820}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B84"
+  m_Name: "\uC2DC\uD2B800 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7627,6 +7659,7 @@ GameObject:
   - component: {fileID: 940575597}
   - component: {fileID: 940575596}
   - component: {fileID: 940575595}
+  - component: {fileID: 940575600}
   m_Layer: 0
   m_Name: zone_00
   m_TagString: Untagged
@@ -7742,6 +7775,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &940575600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940575594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 1997661967}
+  lockMove: 0
 --- !u!1 &947770056
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,12 +7914,12 @@ GameObject:
   - component: {fileID: 956665351}
   - component: {fileID: 956665350}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &956665349
 Transform:
   m_ObjectHideFlags: 0
@@ -8352,7 +8400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 999969070}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B81"
+  m_Name: "\uC2DC\uD2B83 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10932,7 +10980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311605418}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B82"
+  m_Name: "\uC2DC\uD2B84 \uADF8\uB9BC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11692,17 +11740,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 999969070}
-  - {fileID: 587305733}
+  - {fileID: 2017717263}
   - {fileID: 87462777}
   - {fileID: 1939501210}
-  - {fileID: 2017717263}
+  - {fileID: 999969070}
+  - {fileID: 587305733}
   - {fileID: 1311605418}
   - {fileID: 1609638369}
-  - {fileID: 719787820}
-  - {fileID: 1487394477}
   - {fileID: 136022832}
   - {fileID: 449373670}
+  - {fileID: 719787820}
+  - {fileID: 1487394477}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419503232
@@ -12051,7 +12099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1487394477}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B84"
+  m_Name: "\uC2DC\uD2B800 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12647,12 +12695,12 @@ GameObject:
   - component: {fileID: 1543619118}
   - component: {fileID: 1543619117}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1543619116
 Transform:
   m_ObjectHideFlags: 0
@@ -12959,7 +13007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609638369}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B82"
+  m_Name: "\uC2DC\uD2B84 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15190,6 +15238,7 @@ GameObject:
   - component: {fileID: 1825210606}
   - component: {fileID: 1825210605}
   - component: {fileID: 1825210604}
+  - component: {fileID: 1825210609}
   m_Layer: 0
   m_Name: zone_04
   m_TagString: Untagged
@@ -15305,6 +15354,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1825210609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825210603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 956665348}
+  lockMove: 0
 --- !u!1 &1836080759
 GameObject:
   m_ObjectHideFlags: 0
@@ -15817,12 +15881,12 @@ GameObject:
   - component: {fileID: 1874987760}
   - component: {fileID: 1874987759}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1874987758
 Transform:
   m_ObjectHideFlags: 0
@@ -15945,6 +16009,7 @@ GameObject:
   - component: {fileID: 1879944180}
   - component: {fileID: 1879944179}
   - component: {fileID: 1879944178}
+  - component: {fileID: 1879944183}
   m_Layer: 0
   m_Name: zone_03
   m_TagString: Untagged
@@ -16060,6 +16125,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879944183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879944177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 505016023}
+  lockMove: 0
 --- !u!1 &1907044489
 GameObject:
   m_ObjectHideFlags: 0
@@ -16375,7 +16455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1939501210}
   m_Layer: 0
-  m_Name: "\uC2DC\uD2B83"
+  m_Name: "\uC2DC\uD2B81 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17323,12 +17403,12 @@ GameObject:
   - component: {fileID: 1997661970}
   - component: {fileID: 1997661969}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Spot Light_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1997661968
 Transform:
   m_ObjectHideFlags: 0
@@ -17518,7 +17598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017717263}
   m_Layer: 0
-  m_Name: whaud (2)
+  m_Name: "\uC2DC\uD2B81 \uC870\uBA85"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17778,6 +17858,7 @@ GameObject:
   - component: {fileID: 2086879441}
   - component: {fileID: 2086879440}
   - component: {fileID: 2086879439}
+  - component: {fileID: 2086879444}
   m_Layer: 0
   m_Name: zone_05
   m_TagString: Untagged
@@ -17893,6 +17974,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086879444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086879438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3737146053ed1574dabc9adacc6eba4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractZone
+  prompt: {fileID: 1751726781}
+  panel: {fileID: 56437185}
+  lockMove: 0
 --- !u!1 &2096976609
 GameObject:
   m_ObjectHideFlags: 0
